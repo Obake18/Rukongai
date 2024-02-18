@@ -1,0 +1,66 @@
+/* Estilo global */
+body {
+    background-color: #090909; /* Cor de fundo escura */
+    color: white; /* Cor do texto */
+    font-family: 'Hiragino Mincho Pro', serif;
+    text-align: center; /* Centraliza o texto */
+    margin: 0; /* Remove margens padrão do body */
+    padding: 0; /* Remove padding padrão do body */
+}
+
+/* Estilo para links */
+a {
+    color: #ff0000; /* Cor do link */
+    text-decoration: none; /* Remove o sublinhado */
+}
+
+a:hover {
+    text-decoration: underline; /* Adiciona sublinhado ao passar o mouse */
+}
+
+a:visited {
+    color: inherit; /* Mantém a cor do link visitado igual à cor padrão */
+}
+
+/* Estilo para títulos */
+h3 {
+    color: #ff0000; /* Cor do título */
+    text-shadow: 2px 2px 4px #ff0000; /* Sombra escarlate */
+    animation: blink 2s infinite; /* Animação de piscar devagar */
+    margin: 10px 0; /* Adiciona margem ao título */
+}
+
+@keyframes blink {
+    0%, 100% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0.5;
+    }
+}
+
+/* Estilo para imagens */
+img {
+    object-fit: cover;
+    height: 200px;
+    width: 200px; /* Tamanho máximo de 100% do contêiner pai */
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.6); /* Sombra vermelha */
+}
+
+/* Estilo para informações destacadas */
+.pontosDestaque {
+    color: #ff0000; /* Cor de destaque */
+    font-weight: bold; /* Texto em negrito */
+}
+
+/* Estilo para fonte do relato */
+.relato {
+    font-family: 'Courier New', monospace; /* Fonte monoespaçada */
+    font-size: 16px; /* Tamanho da fonte */
+    color: #ff0000; /* Cor do texto */
+    text-shadow: 1px 1px 2px #ff0000, -1px -1px 2px #ff0000; /* Sombra escarlate */
+    margin: 10px 0; /* Adiciona margem ao relato */
+}
+
+/* Adicione estilos específicos para outras classes e elementos conforme necessário */
