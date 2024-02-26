@@ -5,6 +5,7 @@ function desenharCasosCards(idContainer, arrayDeCasos){
 
     for (const caso of arrayDeCasos) {
         containerDeCasos.innerHTML += `
+        <div class="card">
             <div class="card">
                 <div class="conteudo">
                     <h3 class="nomeCaso"><a href='detalhes.html?id=${caso.id}'>${caso.nomeCaso}</a></h3>
@@ -13,13 +14,7 @@ function desenharCasosCards(idContainer, arrayDeCasos){
                     </div>
                     <p class="data">${caso.data}</p>
                 </div>
-                <div class="barra-botoes">
-                    <button class="btn-icone">
-                        <i class="fa fa-crosshairs"></i>
-                    </button>
-                    <button class="btn-icone">
-                        <i class="fa fa-car"></i>
-                    </button>
+               
                 </div>
             </div>
         `;
