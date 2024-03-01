@@ -2,7 +2,7 @@
 
 
 
-const vit1 = new Vitima("Nao Yoshida", "40 anos", "morto", "Após seu cadáver, todos os policiais pediram um dia de folga")
+const vit1 = new Vitima("Nao Yoshida", "40 anos", "morto", "Após virem seu cadáver, todos os policiais pediram um dia de folga")
 
 const vit2 = new Vitima("Emi Takahashi", "25 anos", "morto", "Moradores de seu bairro diziam que ele estava em transe seguindo uma figura pálida, a qual era rodeada de neve")
 
