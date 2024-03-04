@@ -43,16 +43,6 @@ function desenharCardDetalhe(idCard, arrayDeCasos, idCaso){
             <p class="youkai">${caso.youkai.nome}</p>
             <p class="rank"> Rank : ${caso.youkai.rank}</p> 
             <p class="natureza"> Tipo : ${caso.youkai.natureza}</p>
-        </div>
-        <div class="barra-botoes">
-            <button class="btn-icone">
-            <i class="fas fa-skull"></i>
-
-            </button>
-            <button class="btn-icone">
-            <i class="fas fa-bone"></i>
-
-            </button>
-        </div>
+        
     `;
 }
